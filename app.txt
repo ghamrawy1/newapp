@@ -1,3 +1,4 @@
 this is my new app
 try something
 add new line
+second line for testing rebase
