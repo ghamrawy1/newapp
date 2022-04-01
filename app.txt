@@ -1,4 +1,5 @@
 this is my new app
 try something
-add new line
+new line
 second line for testing rebase
+new second line
