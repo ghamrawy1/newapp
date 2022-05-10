@@ -34,13 +34,13 @@ steps {
     message'select type of enviroment'
       ok'Done'
       parameters{
-        choice(name: 'env', choices: ['dev','prod','test'], description: '')
+        choice(name: 'envi', choices: ['dev','prod','test'], description: '')
       }
     }
 
 steps{
        echo 'deploying the application'
-  echo "the environment is ${env}"
+       echo "the environment is${envi}"
       
        }
 
