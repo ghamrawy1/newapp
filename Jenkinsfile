@@ -34,7 +34,7 @@ steps {
     message'select type of enviroment'
       ok'Done'
       parameters{
-        choice(name: 'env', choices['dev','prod','test'], description: '')
+        choice(name: 'env', choices: ['dev','prod','test'], description: '')
       }
     }
 
