@@ -33,7 +33,7 @@ steps {
     input{
     message'select type of enviroment'
       ok'Done'
-      prameters{
+      parameters{
         choice(name: 'env', choices['dev','prod','test'], description: '')
       }
     }
