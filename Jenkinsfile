@@ -40,7 +40,7 @@ steps {
 
 steps{
        echo 'deploying the application'
-       echo "the environment is${envi}"
+       echo "the environment is ${envi}"
       
        }
 
