@@ -1,29 +1,29 @@
-pipeline{
+pipeline {
   
   agent any
 
-stages{
+stages {
 
-   stage{ ("bulid")
+  stage ("bulid") {
 
-step{
-       echo "build the application"
+steps {
+       echo 'build the application'
        }
 
      }
      
-     stage{ ("test")
+  stage ("test") {
 
-step{
-       echo "test the application"
+steps {
+       echo 'test the application'
        }
 
      }
      
-     stage{ ("deploy")
+  stage ("deploy") {
 
-step{
-       echo "deploying the application"
+steps{
+       echo 'deploying the application'
        }
 
      }
