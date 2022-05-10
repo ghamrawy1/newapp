@@ -30,10 +30,18 @@ steps {
      }
      
   stage ("deploy") {
+    input{
+    message'select type of enviroment'
+      ok'Done'
+      prameters{
+        choice(name: 'env', choices['dev','prod','test'], description: '')
+      }
+    }
 
 steps{
-       echo 'deploying the application'   
-       echo "deploying version ${params.version}"
+       echo 'deploying the application'
+  echo "the environment is ${env}"
+      
        }
 
      }
