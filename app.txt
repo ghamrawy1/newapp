@@ -1,5 +1,0 @@
-this is my new app
-try something
-new line
-second line for testing rebase
-
